@@ -1403,8 +1403,8 @@ namespace Microsoft.Windows.Controls
                                 childIndex++;
                             }
                         }
-
-                        ArrangeChild(children[childIndex] as UIElement, i, arrangeState);
+						if (children.Count > childIndex)
+                        	ArrangeChild(children[childIndex] as UIElement, i, arrangeState);
                     }
                     else
                     {
