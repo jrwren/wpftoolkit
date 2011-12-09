@@ -29,7 +29,7 @@ from source. Clone from github and build.
 * Add import the toolkit xml namespace into your xaml. I like to use the toolkit alias.
   xmlns:toolkit="http://schemas.microsoft.com/wpf/2008/toolkit"
 * Use controls
-  <toolkit:DataGrid>...</toolkit:DataGrid>
+  < toolkit:DataGrid > ... < /toolkit:DataGrid > 
 
 ## REPO STRUCTURE
 
