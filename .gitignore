@@ -1,0 +1,22 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+# user specific stuff
+*.suo
+*.docstates
+*.csproj.user
+
+# nuget packages
+packages
+
+# utilities create backup files
+*.bak
+*~
+
+# mstest test results
+TestResults
+
+# ignore vss vcc files from codeplex
+*.vspscc
+*.vssscc
