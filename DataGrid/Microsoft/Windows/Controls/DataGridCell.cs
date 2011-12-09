@@ -305,7 +305,7 @@ namespace Microsoft.Windows.Controls
         /// <summary>
         ///     Builds a column's visual tree if not using templates.
         /// </summary>
-        internal void BuildVisualTree()
+        public virtual void BuildVisualTree()
         {
             if (NeedsVisualTree)
             {

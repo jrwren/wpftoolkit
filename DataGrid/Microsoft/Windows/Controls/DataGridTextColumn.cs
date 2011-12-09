@@ -240,7 +240,7 @@ namespace Microsoft.Windows.Controls
             }
         }
 
-        internal override void OnInput(InputEventArgs e)
+        public override void OnInput(InputEventArgs e)
         {
             // Text input will start an edit
             if (e is TextCompositionEventArgs)

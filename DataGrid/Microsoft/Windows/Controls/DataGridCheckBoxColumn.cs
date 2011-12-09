@@ -211,7 +211,7 @@ namespace Microsoft.Windows.Controls
             }
         }
 
-        internal override void OnInput(InputEventArgs e)
+        public override void OnInput(InputEventArgs e)
         {
             // Space key down will begin edit mode
             if (IsSpaceKeyDown(e))

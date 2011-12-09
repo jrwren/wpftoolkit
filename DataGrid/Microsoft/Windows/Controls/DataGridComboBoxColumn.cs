@@ -639,7 +639,7 @@ namespace Microsoft.Windows.Controls
             }
         }
 
-        internal override void OnInput(InputEventArgs e)
+        public override void OnInput(InputEventArgs e)
         {
             if (IsComboBoxOpeningInputEvent(e))
             {

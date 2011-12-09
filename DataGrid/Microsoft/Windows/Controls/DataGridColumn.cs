@@ -904,7 +904,7 @@ namespace Microsoft.Windows.Controls
         /// </summary>
         /// <param name="d"></param>
         /// <param name="e"></param>
-        internal static void NotifyPropertyChangeForRefreshContent(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        public static void NotifyPropertyChangeForRefreshContent(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             Debug.Assert(d is DataGridColumn, "d should be a DataGridColumn");
 
@@ -1056,7 +1056,7 @@ namespace Microsoft.Windows.Controls
         /// <param name="d"></param>
         /// <param name="baseValue"></param>
         /// <returns></returns>
-        internal static object OnCoerceCanUserSort(DependencyObject d, object baseValue)
+        public static object OnCoerceCanUserSort(DependencyObject d, object baseValue)
         {
             var column = d as DataGridColumn;
             
@@ -1461,7 +1461,7 @@ namespace Microsoft.Windows.Controls
 
         // TODO: Consider making a protected virtual.
         // If made public, look for PUBLIC_ONINPUT (in DataGridCell) and enable.
-        internal virtual void OnInput(InputEventArgs e)
+        public virtual void OnInput(InputEventArgs e)
         {
         }
 
